@@ -23,6 +23,10 @@ main {
   background-color: #EEEEEE;
 }
 
+.step-box:last-child {
+  margin-right: 0;
+}
+
 .step-bo1 {
   background-image: url(img9/flow01.png);
   height: 150px;
@@ -67,23 +71,29 @@ footer {
     width: 100%;
   }
 }
-
-body {
-  width: 100%;
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
 }
 
-main {
-  width: 90%;
-  margin: 50px auto;
-  display: block;
+@media screen and (max-width: 768px) {
+  main {
+    width: 90%;
+    margin: 50px auto;
+    display: block;
+  }
 }
 
+@media screen and (max-width: 768px) {
 .step-box {
   width: 100%;
+  }
 }
 
-.step-box:nth-last-child(odd) {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+@media screen and (max-width: 768px) {
+  .step-box:nth-last-child(odd) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
